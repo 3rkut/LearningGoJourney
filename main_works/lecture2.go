@@ -1,3 +1,4 @@
+// lecture2
 package main
 
 import (
