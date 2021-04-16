@@ -27,7 +27,8 @@ Really I don't know. I will update it as I learn and practice.
 - I am studying slowly because I want to learn well the concepts of GOLANG.
 
 - Currently working on Lesson8: BIG NUMBER.
-- Book name: Get Programming with GO (Nathan Youngman, Roger Peppe)
+- Currently studying in this book: 
+- [Get Programming with GO (Nathan Youngman, Roger Peppe)](https://www.amazon.com/Get-Programming-Go-Nathan-Youngman/dp/1617293091)
 
 # My future plans and TODOS:
 
