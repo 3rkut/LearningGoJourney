@@ -31,5 +31,6 @@ func main() {
 	message := "jamesbond"
 	c := message[3] // indexing into a string.
 	fmt.Println(c)
+	fmt.Printf("%c\n", c) // same thing.
 
 }
