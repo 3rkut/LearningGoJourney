@@ -27,6 +27,7 @@ Really I don't know. I will update it as I learn and practice.
 
 - Currently working on Lesson8: BIG NUMBER.
 - Book name: Get Programming with GO (Nathan Youngman, Roger Peppe)
+
 # My future plans and TODOS:
 
 - Learn Windows APIs in Golang,
