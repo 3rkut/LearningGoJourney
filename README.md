@@ -26,7 +26,7 @@ Really I don't know. I will update it as I learn and practice.
 ### 17.04.2021 update!
 - I am studying slowly because I want to learn well the concepts of GOLANG.
 
-- Currently working on Lesson8: BIG NUMBER.
+- Currently working on Lesson9: MULTILINGUAL TEXT.
 - Currently studying in this book: 
 - [Get Programming with GO (Nathan Youngman, Roger Peppe)](https://www.amazon.com/Get-Programming-Go-Nathan-Youngman/dp/1617293091)
 
