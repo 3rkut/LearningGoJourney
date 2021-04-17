@@ -87,4 +87,9 @@ func main() {
 		fmt.Printf("%c\n", ccc)
 	}
 
+	alphabet := "abcdefghijklmnopqrstuvwxyz" // Quick check 9.6.
+	for f1, c1 := range alphabet {
+		fmt.Printf("\n%v bytes. \n%c", f1, c1)
+	}
+
 }
