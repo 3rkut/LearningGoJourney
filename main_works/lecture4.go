@@ -43,4 +43,8 @@ func main() {
 		fmt.Printf("%c\n", a)
 	}
 
+	caesar := 'd'                       // example of manipulating chars with Caesar cipher.
+	caesar = caesar + 3                 // a, b, c, (d), e(1), f(2), g(3).
+	fmt.Printf("caesar : %c\n", caesar) // prints > g.
+
 }
