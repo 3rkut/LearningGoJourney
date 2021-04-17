@@ -1,6 +1,6 @@
 # Hi everyone! 👋 Welcome to  My Learning Golang Journey
 
-<p align="center"><img width="60%" src="https://raw.githubusercontent.com/malwarehenri/LearningGoJourney/main/img/go.jpg" /></p>
+<p align="center"><img width="50%" src="https://raw.githubusercontent.com/malwarehenri/LearningGoJourney/main/img/go.jpg" /></p>
 
 
 Hello, I just created this repo for follow my Learning Golang Journey and uploading examples of my codes.
