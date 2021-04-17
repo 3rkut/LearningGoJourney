@@ -36,7 +36,7 @@ Really I don't know. I will update it as I learn and practice.
 
 ### 18.04.2021 update!
 - Lesson 9 is done.
-Now I'm in Lesson 10: CONVERTING BETWEEN TYPES.(Page:79/94)
+Now I'm in Lesson 10: CONVERTING BETWEEN TYPES.(Page:84/99)
 - Currently studying in this book: [Get Programming with GO (Nathan Youngman, Roger Peppe)](https://www.amazon.com/Get-Programming-Go-Nathan-Youngman/dp/1617293091)
 
 # My future plans and TODOS:
