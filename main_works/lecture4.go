@@ -52,6 +52,24 @@ func main() {
 	fmt.Printf("result : %c\n", c1)
 
 	message007 := "lets try interesting things."
-	fmt.Println(len(message007)) // len function.
+	fmt.Println(len(message007)) // len function. prints 28.
+
+	message97 := "uv vagreangvbany fcnpr fgngvba"
+
+	for i := 0; i < len(message97); i++ {
+		c := message97[i]
+		if c >= 'a' && c <= 'z' {
+			fmt.Println("c before +13: ", c)
+			c = c + 13
+			fmt.Println("c after +13: ", c)
+			if c > 'z' {
+				c = c - 26
+				fmt.Println("c after -26: ", c)
+
+			}
+		}
+		fmt.Printf("%c", c)
+
+	}
 
 }
