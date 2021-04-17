@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 )
 
 func main() {
@@ -9,10 +10,14 @@ func main() {
 	downit := "lets use plus operator " + "2" + " times."
 	fmt.Println(downit)
 	var (
-		a = 10
-		b = "20"
+		bh float64 = 32767
+		h          = int16(bh)
+		// c = "10" - 1 quickcheck 10.1 , with an error:
+		//The range keyword can decode a UTF-8 encoded string into runes
+		countdown = 1
+		str       = "hmm there is " + strconv.Itoa(countdown) + " string in here."
 	)
-
-	fmt.Println(a + int(b)) // prints 30. basic example of typecasting.
+	fmt.Println(h)
+	fmt.Println(str)
 
 }
