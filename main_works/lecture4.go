@@ -4,6 +4,7 @@ package main
 
 import (
 	"fmt"
+	"unicode/utf8"
 )
 
 func main() {
@@ -72,4 +73,13 @@ func main() {
 
 	}
 
+	question := "¿Cómo estás?" // decoding runes.
+	fmt.Println(len(question), "bytes")
+	fmt.Println(utf8.RuneCountInString(question), "runes")
+	var1, size := utf8.DecodeRuneInString(question)
+	fmt.Printf("First rune: %c %v bytes.\n", var1, size)
+
+	for aaa, ccc := range question {
+		fmt.Printf("%v %c\n", aaa, ccc)
+	}
 }
