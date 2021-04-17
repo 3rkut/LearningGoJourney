@@ -32,5 +32,14 @@ func main() {
 	c := message[3] // indexing into a string.
 	fmt.Println(c)
 	fmt.Printf("%c\n", c) // same thing.
+	// you can't modify a string in Go.
+
+	// book example
+
+	message2 := "shalom"
+
+	for i := 0; i < 6; i++ {
+
+	}
 
 }
