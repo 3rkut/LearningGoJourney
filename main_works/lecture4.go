@@ -57,18 +57,18 @@ func main() {
 	message97 := "uv vagreangvbany fcnpr fgngvba"
 
 	for i := 0; i < len(message97); i++ {
-		c := message97[i]
-		if c >= 'a' && c <= 'z' {
-			fmt.Println("c before +13: ", c)
-			c = c + 13
-			fmt.Println("c after +13: ", c)
-			if c > 'z' {
-				c = c - 26
-				fmt.Println("c after -26: ", c)
+		c4 := message97[i]
+		if c4 >= 'a' && c4 <= 'z' {
+			fmt.Printf("c before +13:%c \n", c4)
+			c4 = c4 + 13
+			fmt.Printf("c after +13:%c \n", c4)
+			if c4 > 'z' {
+				c4 = c4 - 26
+				fmt.Printf("c after -26:%c \n", c4)
 
 			}
 		}
-		fmt.Printf("%c", c)
+		fmt.Printf("%c\n", c4)
 
 	}
 
