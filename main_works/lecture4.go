@@ -79,7 +79,7 @@ func main() {
 	var1, size := utf8.DecodeRuneInString(question)
 	fmt.Printf("First rune: %c %v bytes.\n", var1, size)
 
-	for aaa, ccc := range question {
+	for aaa, ccc := range question { // with range usage.
 		fmt.Printf("%v %c\n", aaa, ccc)
 	}
 }
