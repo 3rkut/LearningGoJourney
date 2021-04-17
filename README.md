@@ -1,4 +1,4 @@
-**Hi everyone! 👋 Welcome to  My Learning Golang Journey**
+# Hi everyone! 👋 Welcome to  My Learning Golang Journey
 
 <p align="center"><img width="50%" src="https://raw.githubusercontent.com/malwarehenri/LearningGoJourney/main/img/go.jpg" /></p>
 
