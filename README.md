@@ -27,6 +27,17 @@ Really I don't know. I will update it as I learn and practice.
 - I am studying slowly because I want to learn well the concepts of GOLANG.
 
 - Currently working on Lesson9: MULTILINGUAL TEXT. (Page:73/88)
+
+#### Some notes about lesson9:
+- Escape sequences like \n are ignored in raw string literals (`).
+- Strings are immutable. Individual characters can be accessed but not altered.
+- Strings use a variable length encoding called UTF-8, where each character con-sumes 1–4 bytes.
+- A byte is an alias for the uint8 type, and rune is an alias for the int32 type
+- The range keyword can decode a UTF-8 encoded string into runes. 
+
+### 18.04.2001 update!
+- Lesson 9 is done.
+Now I'm in Lesson 10: CONVERTING BETWEEN TYPES.
 - Currently studying in this book: 
 - [Get Programming with GO (Nathan Youngman, Roger Peppe)](https://www.amazon.com/Get-Programming-Go-Nathan-Youngman/dp/1617293091)
 
