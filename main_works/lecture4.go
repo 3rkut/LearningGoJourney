@@ -50,4 +50,5 @@ func main() {
 	c1 := 'g' // quick check 9.4 , answer.
 	c1 = c1 - 'a' + 'A'
 	fmt.Printf("result : %c\n", c1)
+
 }
