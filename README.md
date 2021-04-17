@@ -1,4 +1,4 @@
-# Hi everyone! 👋 Welcome to  My Learning Golang Journey
+**Hi everyone! 👋 Welcome to  My Learning Golang Journey**
 
 <p align="center"><img width="50%" src="https://raw.githubusercontent.com/malwarehenri/LearningGoJourney/main/img/go.jpg" /></p>
 
@@ -33,6 +33,8 @@ Really I don't know. I will update it as I learn and practice.
 - Strings use a variable length encoding called UTF-8, where each character con-sumes 1–4 bytes.
 - A byte is an alias for the uint8 type, and rune is an alias for the int32 type
 - The range keyword can decode a UTF-8 encoded string into runes. 
+
+---
 
 ### 18.04.2021 update!
 - Lesson 9 is done.
