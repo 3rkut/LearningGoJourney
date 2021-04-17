@@ -39,7 +39,8 @@ func main() {
 	message2 := "shalom"
 
 	for i := 0; i < 6; i++ {
-
+		a := message2[i]
+		fmt.Printf("%c\n", a)
 	}
 
 }
