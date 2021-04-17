@@ -34,7 +34,7 @@ func main() {
 	fmt.Printf("%c\n", c) // same thing.
 	// you can't modify a string in Go.
 
-	// book example
+	// book example -QC 9.3-
 
 	message2 := "shalom"
 
