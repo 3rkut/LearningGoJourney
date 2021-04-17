@@ -82,4 +82,9 @@ func main() {
 	for aaa, ccc := range question { // with range usage.
 		fmt.Printf("%v %c\n", aaa, ccc)
 	}
+	fmt.Println("==========")
+	for _, ccc := range question {
+		fmt.Printf("%c\n", ccc)
+	}
+
 }
