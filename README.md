@@ -35,7 +35,7 @@ Really I don't know. I will update it as I learn and practice.
 - A byte is an alias for the uint8 type, and rune is an alias for the int32 type
 - The range keyword can decode a UTF-8 encoded string into runes. 
 
-### 18.04.2001 update!
+### 18.04.2021 update!
 - Lesson 9 is done.
 Now I'm in Lesson 10: CONVERTING BETWEEN TYPES.
 - Currently studying in this book: 
