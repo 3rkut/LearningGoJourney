@@ -51,4 +51,7 @@ func main() {
 	c1 = c1 - 'a' + 'A'
 	fmt.Printf("result : %c\n", c1)
 
+	message007 := "lets try interesting things."
+	fmt.Println(len(message007)) // len function.
+
 }
