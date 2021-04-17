@@ -92,4 +92,7 @@ func main() {
 		fmt.Printf("\n%v bytes. \n%c", f1, c1)
 	}
 
+	quickk := "¿" // other solution
+	fmt.Println(len(quickk))
+
 }
