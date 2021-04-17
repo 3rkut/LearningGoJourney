@@ -47,4 +47,7 @@ func main() {
 	caesar = caesar + 3                 // a, b, c, (d), e(1), f(2), g(3).
 	fmt.Printf("caesar : %c\n", caesar) // prints > g.
 
+	c1 := 'g' // quick check 9.4 , answer.
+	c1 = c1 - 'a' + 'A'
+	fmt.Printf("result : %c\n", c1)
 }
