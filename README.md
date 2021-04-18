@@ -41,6 +41,18 @@ Really I don't know. I will update it as I learn and practice.
 Now I'm in Lesson 10: CONVERTING BETWEEN TYPES.(Page:84/99)
 - Currently studying in this book: [Get Programming with GO (Nathan Youngman, Roger Peppe)](https://www.amazon.com/Get-Programming-Go-Nathan-Youngman/dp/1617293091)
 
+---
+
+### 19.04.2021 update!
+- Lesson 10 is done.
+Now I'm in UNIT 3 , Lesson 12 : Functions.(Page:91/106)
+
+
+### Some Notes About Lesson10:
+- Conversion between types is explicit to avoid ambiguity.
+- The strconv package provides functions for converting strings to and from other types.
+- And also SPrintf.
+
 # My future plans and TODOS:
 
 - Learn Windows APIs in Golang,
