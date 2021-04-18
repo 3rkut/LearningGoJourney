@@ -19,5 +19,6 @@ func main() {
 	)
 	fmt.Println(h)
 	fmt.Println(str)
+	fmt.Println(fmt.Sprintf("There is %v more string in here.", countdown))
 
 }
