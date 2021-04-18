@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"strconv"
+	"strconv" // for coverting int to string.
 )
 
 func int_to_string(x int) string { // convert int to string with this.
