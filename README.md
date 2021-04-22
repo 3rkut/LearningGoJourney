@@ -53,6 +53,24 @@ Now I'm in UNIT 3 , Lesson 12 : Functions.(Page:93/108)
 - The strconv package provides functions for converting strings to and from other types.
 - And also SPrintf.
 
+---
+
+### 20.04.2021 update!
+- Lesson12 : Functions done!
+Now I'm in Lesson13
+
+
+### Some Notes About Lesson12:
+- Functions are declared with a name, a list of parameters, and a list of results.
+- Capitalized function names and types are made available to other packages.
+- Each parameter or result is a name followed by a type, though types may be elided when multiple named parameters or results have the same type. Results can also be listed as types without names.
+- Function calls are prefixed with the name of the package where the function is declared, unless the function is declared in the same package it’s called from.
+- Functions are called with arguments that correspond to the parameters they accept. Results are returned to the caller with the return keyword.
+
+---
+
+### 22.04.2021 update!
+
 # My future plans and TODOS:
 
 - Learn Windows APIs in Golang,
