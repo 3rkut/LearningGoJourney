@@ -11,6 +11,12 @@ func topla_carp(a, b int) (int, int) {
 
 }
 
+type person struct {
+	age     int
+	name    string
+	surname string
+}
+
 func main() {
 
 	toplam, carpim := topla_carp(3, 13)
@@ -38,5 +44,8 @@ func main() {
 		fmt.Println("index: ", index2, "value: ", value2)
 	}
 	fmt.Println("guncel hali", deneme1)
+
+	firstperson := person{age: 22, name: "Adam", surname: "Walker"}
+	fmt.Println(firstperson)
 
 }
