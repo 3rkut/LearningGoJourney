@@ -1,7 +1,10 @@
 // lesson 12.
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
 func topla_carp(a, b int) (int, int) {
 	return a + b, a * b
@@ -23,4 +26,17 @@ func main() {
 	for _, i := range myslice {
 		fmt.Println(i)
 	}
+
+	var deneme1 = []int{10, 12, 13}
+
+	for i := 0; i < 3; i++ {
+		fmt.Println("index: ", i, "value: ", deneme1[i])
+		deneme1 = append(deneme1, rand.Intn(6))
+	}
+	fmt.Println("bitti")
+	for index2, value2 := range deneme1 {
+		fmt.Println("index: ", index2, "value: ", value2)
+	}
+	fmt.Println("guncel hali", deneme1)
+
 }
