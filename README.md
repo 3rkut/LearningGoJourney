@@ -75,8 +75,8 @@ Now I'm in Lesson13
 ---
 
 ### 25.04 2021 update!
-- Still working on Methods and Functions.
-
+- Still working on Methods and Functions with this book:
+- The Go programming language-Addison-Wesley (Donovan, Alan A. A._Kernighan, Brian W.)
 
 # My future plans and TODOS:
 
