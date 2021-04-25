@@ -70,6 +70,13 @@ Now I'm in Lesson13
 ---
 
 ### 22.04.2021 update!
+- Method code examples added.
+
+---
+
+### 25.04 2021 update!
+- Still working on Methods and Functions.
+
 
 # My future plans and TODOS:
 
