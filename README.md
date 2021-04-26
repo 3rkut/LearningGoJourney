@@ -78,6 +78,10 @@ Now I'm in Lesson13
 - Still working on Methods and Functions with this book:
 - The Go programming language-Addison-Wesley (Donovan, Alan A. A._Kernighan, Brian W.)
 
+- One note for lesson13.2.go line 20th:
+Because a pointer contains the address of a variable,passing a pointer argument to a function makes it possible for the function to update the variable that was indirectly passed.
+
+
 # My future plans and TODOS:
 
 - Learn Windows APIs in Golang,
