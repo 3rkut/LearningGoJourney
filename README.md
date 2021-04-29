@@ -81,9 +81,11 @@ Now I'm in Lesson13
 - One note for lesson13.2.go line 20th:
 Because a pointer contains the address of a variable,passing a pointer argument to a function makes it possible for the function to update the variable that was indirectly passed.
 
+### 28.04.2021 update!
+Finished book.
+It is a good adventure for me :)
+
 
 # My future plans and TODOS:
 
-- Learn Windows APIs in Golang,
-- Do some examples with Winapi,
-- Try to write some basic vx things with it.
+Learn network programming.
