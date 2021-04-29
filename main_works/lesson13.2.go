@@ -8,6 +8,9 @@ func f() *int {
 }
 
 func incr(p *int) int { // paramater is important in this example.
+	fmt.Println("p : ", p) // for better understanding.
+	fmt.Println("*p : ", *p)
+	fmt.Println("&p : ", &p)
 	*p++ // v += 1 at this point.
 	return *p
 }
