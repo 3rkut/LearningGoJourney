@@ -32,10 +32,14 @@ func main() {
 		fmt.Println("index: ", index1, "value: ", value2)
 	}
 
-	fmt.Println("x: ", x) // more clear demo.
-	fmt.Println("&x: ", &x)
-	fmt.Println("p: ", p)
+	// more clear demo.
+	fmt.Println("x: ", x)   // "1".
+	fmt.Println("&x: ", &x) // address of x.
+	fmt.Println("p: ", p)   // address of x, same with above.
 	fmt.Println("&p: ", &p)
-	fmt.Println("*p: ", *p)
+	fmt.Println("*p: ", *p) // value of x, "1".
+
+	*p = 5         // We changed the value of x.
+	fmt.Println(x) // "5".
 
 }
