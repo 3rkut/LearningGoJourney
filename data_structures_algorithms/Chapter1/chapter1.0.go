@@ -17,7 +17,7 @@ func (iheap IntegerHeap) Less(i, j int) bool { return iheap[i] < iheap[j] }
 
 func (iheap IntegerHeap) Swap(i, j int) { iheap[i], iheap[j] = iheap[j], iheap[i] }
 
-func (iheap *IntegerHeap) Push(heapintf interface{}) {
+func (iheap *IntegerHeap) Push(heaprintf interface{}) {
 	*iheap = append(*iheap, heaprintf.(int))
 }
 
