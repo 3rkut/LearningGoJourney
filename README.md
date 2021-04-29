@@ -84,8 +84,8 @@ Because a pointer contains the address of a variable,passing a pointer argument 
 ### 28.04.2021 update!
 Finished book.
 It is a good adventure for me :)
-
-
+Now I'm started this book: 
+- [Learn Data Structures and Algorithms with Golang: Level up your Go programming skills to develop faster and more efficient code](https://www.amazon.com/Learn-Data-Structures-Algorithms-Golang-ebook/dp/B07KYJYSMC)
 # My future plans and TODOS:
 
 Learn network programming.
