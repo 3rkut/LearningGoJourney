@@ -48,7 +48,7 @@ func main() {
 	)
 	intList.PushBack(21)
 	intList.PushBack(53)
-
+	intList.PushBack(12)
 	for element := intList.Front(); element != nil; element = element.Next() {
 		fmt.Println(element.Value.(int))
 	}
