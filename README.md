@@ -86,6 +86,10 @@ Finished book.
 It is a good adventure for me :)
 Now I'm started this book: 
 - [Learn Data Structures and Algorithms with Golang: Level up your Go programming skills to develop faster and more efficient code](https://www.amazon.com/Learn-Data-Structures-Algorithms-Golang-ebook/dp/B07KYJYSMC)
-# My future plans and TODOS:
 
+### 01.04.2021 update!
+- Created new folder > "data_structures_algorithms/"
+- Added code examples about books first chapter.
+
+# My future plans and TODOS:
 Learn network programming.
