@@ -7,7 +7,7 @@ import (
 	"fmt"
 )
 
-func example(a *int) {
+func example(a *int) { // call by reference.
 	*a = 80
 }
 
