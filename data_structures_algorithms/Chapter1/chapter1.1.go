@@ -7,6 +7,10 @@ import (
 	"fmt"
 )
 
+func example(a *int) {
+	*a = 80
+}
+
 func main() {
 
 	var p *int
@@ -19,6 +23,9 @@ func main() {
 	fmt.Println("&p: ", &p)
 	fmt.Println("*p: ", *p)
 
-	*p = 30 // change the *p and check a variable.
-	fmt.Println("a: ", a)
+	*p = 30               // change the *p and check a variable.
+	fmt.Println("a: ", a) // prints 30.
+
+	example(&a)           // a = 30, we give a's address , because parameter must be pointer.
+	fmt.Println("a: ", a) // prints 80.
 }
