@@ -94,5 +94,8 @@ Now I'm started this book:
 ### 02.05.2021 update!
 - Added basic pointer/heap/tuple examples.
 
+### 07.05.2021 update!
+- Still learning the Data Structures. I want to learn very well Data Structures. Because it is very important for understanding main topics, programming etc in the future.
+
 # My future plans and TODOS:
 Learn network programming.
