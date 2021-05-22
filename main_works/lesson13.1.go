@@ -42,4 +42,5 @@ func main() {
 	*p = 5         // We changed the value of x.
 	fmt.Println(x) // "5".
 
+	
 }
