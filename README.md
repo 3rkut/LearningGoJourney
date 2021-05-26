@@ -97,5 +97,8 @@ Now I'm started this book:
 ### 07.05.2021 update!
 - Still learning the Data Structures. I want to learn very well Data Structures. Because it is very important for understanding main topics, programming etc in the future.
 
+### 23.05.2021 update!
+- Still learning the main areas of Golang. Because I'm learning a new thing about Golang everyday! And Its awesome!
+
 # My future plans and TODOS:
 Learn network programming.
