@@ -22,7 +22,6 @@ func main() {
 	fmt.Println("p: ", p)
 	fmt.Println("&p: ", &p)
 	fmt.Println("*p: ", *p)
-
 	*p = 30               // change the *p and check a variable.
 	fmt.Println("a: ", a) // prints 30.
 
