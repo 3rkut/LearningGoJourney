@@ -27,4 +27,14 @@ func main() {
 	} else {
 		fmt.Println(missingVar)
 	}
+
+	myMap4 := []string{"apple", "banana", "watermelon"}
+	for i := 0; i < len(myMap4); i++ {
+		fmt.Println(myMap4[i])
+	}
+
+	for i, v := range myMap4 {
+		fmt.Println("Index: ", i)
+		fmt.Println("Value", v)
+	}
 }
