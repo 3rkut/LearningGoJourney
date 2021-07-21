@@ -37,4 +37,13 @@ func main() {
 		fmt.Println("Index: ", i)
 		fmt.Println("Value", v)
 	}
+
+	yourMap := map[int]string{ // int keys,string values.
+		0: "I am zero.",
+		1: "I am one",
+		2: "I am two",
+	}
+	for _, v := range yourMap {
+		fmt.Println("value: ", v)
+	}
 }
