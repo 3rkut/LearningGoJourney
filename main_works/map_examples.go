@@ -46,4 +46,12 @@ func main() {
 	for _, v := range yourMap {
 		fmt.Println("value: ", v)
 	}
+	counter := 5
+	fmt.Println("counter before: ", counter)
+	countIt(&counter)
+	fmt.Println("counter after: ", counter)
+}
+
+func countIt(counter *int) {
+	*counter++
 }
