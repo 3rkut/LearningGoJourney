@@ -8,13 +8,10 @@ type exampleStruct struct {
 }
 
 func main() {
-	person1 := exampleStruct{"Adam", 1}
-	// another way.
-	// person1 := exampleStruct{
-	// name: "Adam",
-	// id:   1,
-	// }
-	fmt.Printf("person1: %v\n", person1)
-	fmt.Printf("person1 name: %v\n", person1.name)
-	fmt.Printf("person1 id: %v\n", person1.id)
+	person1 := exampleStruct{"Lucifer", 1}
+	fmt.Println(person1.Hellothere())
+}
+
+func (es exampleStruct) Hellothere() string {
+	return fmt.Sprintf("welcome to the club, %s\n", es.name)
 }
