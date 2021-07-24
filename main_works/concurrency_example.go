@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	go countI()
 	go countT()
+	time.Sleep(time.Second)
 }
 
 func countI() {
