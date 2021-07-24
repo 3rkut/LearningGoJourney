@@ -2,22 +2,23 @@ package main
 
 import (
 	"fmt"
-	"sync"
 )
 
 func main() { // func main is first Goroutine.
-	var wg sync.WaitGroup
-	wg.Add(1)
-
-	go func() {
-		countI()
-		wg.Done()
-	}()
-	wg.Wait()
+	c := make(chan int)
+	go countI(1, c)
+	for {
+		msg, open := <-c
+		if !open {
+			break
+		}
+		fmt.Println(msg)
+	}
 }
 
-func countI() {
+func countI(x int, c chan int) {
 	for i := 0; i < 10; i++ {
-		fmt.Println(i)
+		c <- x
 	}
+	close(c)
 }
