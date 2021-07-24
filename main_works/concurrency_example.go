@@ -7,11 +7,7 @@ import (
 func main() { // func main is first Goroutine.
 	c := make(chan int)
 	go countI(1, c)
-	for {
-		msg, open := <-c
-		if !open {
-			break
-		}
+	for msg := range c {
 		fmt.Println(msg)
 	}
 }
